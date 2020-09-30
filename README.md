@@ -25,7 +25,7 @@ This module provides a simple dashboard of Google Analytics data, integrated int
  - `GA_KEY_CONTENT = 'content_of_your_key.json'`
  - `GA_VIEW_ID = 'ga:xxxxxxxx'`
 
-If you get CryptoUnavailableError errors, you probably need to `pip install PyOpenSSL` and/or `pip install pycrypto`. See [StackOverflow](http://stackoverflow.com/questions/27305867/google-api-access-using-service-account-oauth2client-client-cryptounavailableerr).
+If you get CryptoUnavailableError errors, you probably need to `pip install PyOpenSSL` and/or `pip install pycryptodome`. See [StackOverflow](http://stackoverflow.com/questions/27305867/google-api-access-using-service-account-oauth2client-client-cryptounavailableerr).
 
 Ensure that your code snippet is included on each page you want to be tracked (likely by putting it in your base.html template.) (Admin > Property > Tracking Code)
 
